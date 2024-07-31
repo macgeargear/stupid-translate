@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hello-api"
+version = "0.1.0"
+description = ""
+authors = ["Gear <84141000+macgeargear@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+uvicorn = "^0.30.3"
+redis = "^5.0.8"
+redislite = "^6.2.912183"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
